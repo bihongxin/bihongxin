@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/TaoBao.iml" filepath="$PROJECT_DIR$/TaoBao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/okhttp3utils/okhttp3utils.iml" filepath="$PROJECT_DIR$/okhttp3utils/okhttp3utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/swipetorefashlibrary/swipetorefashlibrary.iml" filepath="$PROJECT_DIR$/swipetorefashlibrary/swipetorefashlibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zxinglite/zxinglite.iml" filepath="$PROJECT_DIR$/zxinglite/zxinglite.iml" />
+    </modules>
+  </component>
+</project>

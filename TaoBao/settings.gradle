@@ -1,0 +1,1 @@
+include ':app', ':swipetorefashlibrary', ':okhttp3utils', ':zxinglite'

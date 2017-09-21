@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        >
+        <ImageView
+            android:id="@+id/iv_search_reutrn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/search_return"
+            android:layout_marginLeft="10dp"
+            android:layout_centerVertical="true"
+            />
+        <EditText
+            android:id="@+id/et_search"
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            />
+        <Button
+            android:id="@+id/btn_search"
+            android:layout_width="55dp"
+            android:layout_height="35dp"
+            android:text="搜索"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/btn_shape"
+            android:layout_marginRight="5dp"
+            android:layout_centerVertical="true"
+            />
+    </RelativeLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#A1A1A4"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="劳力士"
+        android:textSize="23sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="清除历史记录"
+        android:background="#fff"
+        />
+    <ListView
+        android:id="@+id/search_lv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ListView>
+</LinearLayout>
